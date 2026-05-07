@@ -12,7 +12,7 @@ It is responsible for:
 
 It exposes REST APIs that can be consumed by any frontend application.
 
-## How the it Works
+## How the Works
 
 - Built using Spring Boot with layered architecture (Controller, Service, Repository)  
 - Users can register and automatically get a wallet with default balance  
