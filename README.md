@@ -2,7 +2,7 @@
 
 This repository contains the backend implementation of a Payment Simulation System developed using Java and Spring Boot.
 
-The backend is responsible for:
+It is responsible for:
 
 - User registration and authentication  
 - Wallet creation and balance management  
@@ -12,7 +12,7 @@ The backend is responsible for:
 
 It exposes REST APIs that can be consumed by any frontend application.
 
-## How the Backend Works
+## How the it Works
 
 - Built using Spring Boot with layered architecture (Controller, Service, Repository)  
 - Users can register and automatically get a wallet with default balance  
@@ -22,7 +22,7 @@ It exposes REST APIs that can be consumed by any frontend application.
 - Transactions are stored and retrieved as history  
 - Uses Spring Data JPA for database interaction  
 
-## How to Run Backend on Local Machine
+## How to Run on Local Machine
 
 1. Download or clone this repository  
 2. Open IntelliJ IDEA or VS Code  
@@ -33,10 +33,10 @@ It exposes REST APIs that can be consumed by any frontend application.
 7. Open the main class (PaymentApplication.java)  
 8. Click the Run button  
 
-Backend will start on:  
+it will start on:  
 http://localhost:8080  
 
-## Backend API Usage
+## API Usage
 
 ### Auth APIs
 - POST /api/auth/register – User registration  
@@ -49,7 +49,7 @@ http://localhost:8080
 - POST /api/transaction/transfer – Transfer money  
 - GET /api/transaction/history – Get transaction history  
 
-## Backend Requirements
+## Requirements
 
 - Java JDK 8 or above  
 - IntelliJ IDEA or VS Code  
