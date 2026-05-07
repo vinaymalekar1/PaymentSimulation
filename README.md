@@ -1,4 +1,4 @@
-# Payment Simulation Backend
+# Payment Simulation
 
 This repository contains the backend implementation of a Payment Simulation System developed using Java and Spring Boot.
 
